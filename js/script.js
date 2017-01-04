@@ -1,8 +1,6 @@
 "use strict";
 
-
 $(function () {
-    //$('body').css('background-image', 'url("' + "background.jpg" + '")');
     updateTime();
 
 });

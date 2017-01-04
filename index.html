@@ -2,36 +2,13 @@
 <html>
 
 <head>
-    <title>Starting Page</title>
+    <title>My Profile</title>
     <script type="text/javascript" src="js/jquery-3.1.1.slim.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript" src="js/icons.js"></script>
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <!--<link rel="stylesheet" type="text/css" href="css/icons.css">-->
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $("a").click(function() {
-                var elementClick = $(this).attr("href");
-                var destination = $(elementClick).offset().top;
-                if ($.browser.safari) {
-                    $('body').animate({
-                        scrollTop: destination
-                    }, 1100); //1100 - скорость прокрутки
-                } else {
-                    $('html').animate({
-                        scrollTop: destination
-                    }, 1100);
-                }
-                return false;
-            });
-        });
-
-    </script>
 </head>
 
 <body>
-
-
     <div class="github">
         <div class='h2'>What is GitHub?</div>
 
@@ -76,11 +53,17 @@
     </div>
 
     <div class="design">
-        <div class="design_h1"></div>
-        <div class="design_h2"></div>
+        <div class="design_h1">
+            Design
+        </div>
+        <div class="design_h2">
+            Apps<br><br>
+            <li>Photoshop</li><br>
+            <li>Illustrato</li><br>
+            <li>After Effects</li><br>
+            <br> Design is the creation of a plan or convention for the construction of an object, system or measurable human interaction (as in architectural blueprints, engineering drawings, business processes, circuit diagrams, and sewing patterns).[1] Design has different connotations in different fields (see design disciplines below). In some cases, the direct construction of an object (as in pottery, engineering, management, coding, and graphic design) is also considered to be design.
+        </div>
     </div>
-
-
 
     <div class="header">
         <div class="h1">Starting page</div>
@@ -93,6 +76,7 @@
         </div>
         <div class="time"></div>
     </div>
+
 </body>
 
 </html>
