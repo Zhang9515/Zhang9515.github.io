@@ -5,10 +5,10 @@ body {
 }
 
 .row {
-        height: 500px;
+    height: 500px;
     width: 100%;
     margin-left: 0px;
-    background-color:#247BA0;
+    background-color: #247BA0;
 }
 
 .github {
@@ -31,16 +31,18 @@ body {
     font-size: 18px;
 }
 
-.github{
+.github {
     height: 500px;
 }
-.github_image{
+
+.github_image {
     display: block;
     position: relative;
     top: 121px;
 }
+
 @media (max-width: 1000px) {
-    .github_image{
+    .github_image {
         display: none;
     }
 }
