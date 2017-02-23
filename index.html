@@ -13,9 +13,12 @@
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="css/material.min.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     <script src="js/material.min.js"></script>
+    <script src="js/script.js"></script>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script type="text/javascript" src="js/jquery-3.1.1.slim.min.js"></script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
@@ -43,6 +46,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="javascript:void(0)">Github</a></li>
                     <li><a href="#">About</a></li>
+                    <li><a href="#">Map</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -52,25 +56,31 @@
             </div>
         </div>
     </div>
-
-    <div class="row">
-        <div class="col-lg-3 row-eq-height"></div>
-        <div class="col-lg-3 col-md-6 row-eq-height">
-            <div class="github">
-                <div class="h1">Github</div>
-                <p class="h2">You can watch all my project on my GitHub account</p>
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect mdl-button--accent">
-  My GitHub Page
-</button>
-            </div>
+    <div class="github">
+        <div id="header">
 
         </div>
-        <div class="col-lg-3 col-md-6 row-eq-height">
-            <img src="images/github%20page.png" class="github_image" />
+    </div>
+
+    <div class="about">
+        <div class="software">
+
         </div>
-        <div class="col-lg-3 row-eq-height"></div>
+        <div class="web">
+
+        </div>
+        <div class="design">
+
+        </div>
+    </div>
+
+
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEB-vIbg5LyLLWRJGO5te7xg_jqz6Q5co&callback=initMap" async defer></script>
+    <div class="contact">
 
     </div>
+
 </body>
 
 </html>
