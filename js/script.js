@@ -1,4 +1,5 @@
 "use strict";
+
 var map;
 
 $(function() {
@@ -11,6 +12,7 @@ function initMap() {
 
     var list = [Kiev, Odessa, Chernivtsi, Lviv, Ternopil, Zhitomir, Bila_Zerkva, Uman, Sevastopol, Simferopol,
         Herson, Lazurnoe, Vinniza, Poltava, Zaporizhya, Uzhgorod, Mukachevo, Ivano_F, Kam_Pod, Hmelnizkiy, Belgorod_Dn,
+        Vien, Madrid, Barcelona
 
     ]
 

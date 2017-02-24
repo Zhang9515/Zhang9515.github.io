@@ -1,3 +1,5 @@
+// Ukraine
+
 var Kiev = {lat: 50.453314, lng: 30.542264};
 
 var Odessa = {lat: 46.484481, lng: 30.724144};
@@ -41,3 +43,13 @@ var Kam_Pod = {lat: 48.696659, lng: 26.580348};
 var Hmelnizkiy = {lat: 49.422815, lng: 26.991481};
 
 var Belgorod_Dn = {lat: 46.185652, lng: 30.346409};
+
+// Ausria
+
+var Vien = {lat: 48.208081, lng: 16.372849};
+
+// Spain
+
+var Madrid = {lat: 40.415394, lng: -3.706323};
+
+var Barcelona = {lat: 41.381375, lng: 2.178979};

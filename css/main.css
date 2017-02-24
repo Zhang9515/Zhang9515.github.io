@@ -1,6 +1,8 @@
 body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 
@@ -77,8 +79,11 @@ body {
     position: relative;
     width: 100%;
     height: 525px;
-    background-color: #247BA0;
+    background-color: #f6f6f6;
 }
+
+
+/* Hobbies */
 
 .hobbies {
     position: relative;
@@ -86,12 +91,39 @@ body {
     height: 525px;
 }
 
+
+/* Travel section */
+
 .travel {
     position: relative;
     width: 100%;
     height: 100px;
-    background-color: #247BA0;
+    background-color: #f6f6f6;
 }
+
+.travel_text {
+    position: relative;
+    top: 15px;
+    color: #444;
+}
+
+.marker {
+    position: absolute;
+    ;
+    width: 100px;
+    height: 100px;
+    left: 85%;
+    top: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    .marker {
+        display: none;
+    }
+}
+
+
+/* Google map with markers*/
 
 #map {
     position: relative;
@@ -103,4 +135,5 @@ body {
     position: relative;
     width: 100%;
     height: 525px;
+    background-color: #444;
 }
