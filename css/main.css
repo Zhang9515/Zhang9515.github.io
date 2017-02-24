@@ -7,7 +7,9 @@ body {
 
 
 /* Nav Bar */
-
+.navbar{
+  width: 100%;
+}
 .avatar_menu {
     height: 20px;
     width: 20px;
