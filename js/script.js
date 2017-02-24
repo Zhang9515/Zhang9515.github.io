@@ -19,7 +19,7 @@ function initMap() {
             lat: 50.453314,
             lng: 30.542264
         },
-        zoom: 3,
+        zoom: 8,
         minZoom: 3,
         maxZoom: 10
     });
