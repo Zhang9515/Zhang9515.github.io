@@ -4,6 +4,19 @@ body {
 }
 
 
+/* Nav Bar */
+
+.avatar_menu {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 1;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+
+
 /* Top */
 
 .top {
@@ -53,7 +66,7 @@ body {
 .about {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 525px;
     margin-top: 51px;
 }
 
@@ -63,14 +76,14 @@ body {
 .development {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 525px;
     background-color: #247BA0;
 }
 
 .hobbies {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 525px;
 }
 
 .travel {
@@ -89,5 +102,5 @@ body {
 .contact {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 525px;
 }

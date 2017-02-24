@@ -16,10 +16,10 @@ function initMap() {
 
     map = new google.maps.Map(document.getElementById('map'), {
         center: {
-            lat: 50.453314,
-            lng: 30.542264
+            lat: 48.198784,
+            lng: 13.213503
         },
-        zoom: 8,
+        zoom: 5,
         minZoom: 3,
         maxZoom: 10
     });
