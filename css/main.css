@@ -86,21 +86,22 @@ p {
 .development {
     position: relative;
     width: 100%;
-    height: 525px;
+    height: 1000px;
     background-color: #f6f6f6;
 }
 
-.soft_block {
+.soft_block, .software_img {
     position: relative;
+    display: block;
 }
 
-.soft_text {
+.soft_text, .web_text {
     display: block;
     color: #444;
     font-size: 1rem;
 }
 
-.soft_title {
+.soft_title, .web_title {
     display: block;
     color: #444;
     font-size: 2.625rem;
@@ -109,31 +110,54 @@ p {
 }
 
 .software_img {
-    position: relative;
     margin-top: 20px;
     width: 28rem;
     height: 33rem;
 }
 
+.web_block {
+    margin-top: 80px;
+    left: 20px;
+    min-width: 200px;
+}
+
+.web_img {
+    margin-top: 50px;
+    width: 20rem;
+    height: 30rem;
+}
+
 @media only screen and (min-width: 770px) {
-    .soft_block {
+    .soft_block, .web_block {
         top: 100px;
     }
-    .software_img {
+    .software_img, .web_block {
         margin-left: 40px;
     }
 }
 
 @media only screen and (max-width: 769px) {
     .development {
-        height: 800px;
+        height: 1200px;
     }
-    .soft_block {
+    .soft_block, .web_block {
         text-align: center;
     }
-    .software_img {
+    .software_img, .web_img {
         display: block;
         margin: auto;
+    }
+    .software_img {
+        width: 20rem;
+        height: 25rem;
+    }
+    .web_block {
+        position: absolute;
+        top: -450px;
+    }
+    .web_img {
+        position: relative;
+        top: 200px;
     }
 }
 
