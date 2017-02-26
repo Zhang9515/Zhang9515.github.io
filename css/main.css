@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
 body {
     -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
     overflow-y: scroll;
     overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: normal;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: normal;
+    font-weight: 300;
+    color: #757575;
 }
 
 
@@ -32,12 +45,12 @@ body {
     align-items: center;
 }
 
-#hello {
+#footer_content {
     position: relative;
     top: -400px;
 }
 
-.me_h1 {
+.hello {
     position: relative;
     color: #ffffff;
 }
@@ -49,7 +62,7 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
-    .me_h1 {
+    .hello {
         top: 50px;
     }
     .avatar {
@@ -77,6 +90,53 @@ body {
     background-color: #f6f6f6;
 }
 
+.soft_block {
+    position: relative;
+}
+
+.soft_text {
+    display: block;
+    color: #444;
+    font-size: 1rem;
+}
+
+.soft_title {
+    display: block;
+    color: #444;
+    font-size: 2.625rem;
+    font-weight: 100;
+    line-height: 1.4;
+}
+
+.software_img {
+    position: relative;
+    margin-top: 20px;
+    width: 28rem;
+    height: 33rem;
+}
+
+@media only screen and (min-width: 770px) {
+    .soft_block {
+        top: 100px;
+    }
+    .software_img {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .development {
+        height: 800px;
+    }
+    .soft_block {
+        text-align: center;
+    }
+    .software_img {
+        display: block;
+        margin: auto;
+    }
+}
+
 
 /* Hobbies */
 
@@ -100,11 +160,11 @@ body {
     position: relative;
     top: 15px;
     color: #444;
+    font-weight: 300;
 }
 
 .marker {
     position: absolute;
-    ;
     width: 100px;
     height: 100px;
     left: 85%;
@@ -114,6 +174,9 @@ body {
 @media only screen and (max-width: 800px) {
     .marker {
         display: none;
+    }
+    .travel_text {
+        font-size: 20px;
     }
 }
 
