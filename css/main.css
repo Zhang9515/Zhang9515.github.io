@@ -138,7 +138,7 @@ p {
 
 @media only screen and (max-width: 769px) {
     .development {
-        height: 1200px;
+        height: 1210px;
     }
     .soft_block, .web_block {
         text-align: center;
@@ -157,10 +157,19 @@ p {
     }
     .web_img {
         position: relative;
-        top: 200px;
+        top: 220px;
     }
 }
 
+@media only screen and (max-width: 500px) {
+  .web_img {
+      position: relative;
+      top: 330px;
+  }
+  .development {
+      height: 1340px;
+  }
+}
 
 /* Hobbies */
 
