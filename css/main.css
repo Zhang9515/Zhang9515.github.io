@@ -111,12 +111,12 @@ p {
 
 .software_img {
     margin-top: 20px;
-    width: 28rem;
-    height: 33rem;
+    width: 23rem;
+    height: 27rem;
 }
 
 .web_block {
-    margin-top: 80px;
+    margin-top: 130px;
     left: 20px;
     min-width: 200px;
 }
@@ -128,7 +128,7 @@ p {
 }
 
 @media only screen and (min-width: 770px) {
-    .soft_block, .web_block {
+    .soft_block {
         top: 100px;
     }
     .software_img, .web_block {
@@ -162,14 +162,15 @@ p {
 }
 
 @media only screen and (max-width: 510px) {
-  .web_img {
-      position: relative;
-      top: 300px;
-  }
-  .development {
-      height: 1350px;
-  }
+    .web_img {
+        position: relative;
+        top: 300px;
+    }
+    .development {
+        height: 1350px;
+    }
 }
+
 
 /* Hobbies */
 
@@ -198,10 +199,10 @@ p {
 
 .marker {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 85%;
-    top: 50px;
+    width: 4.5rem;
+    height: 4.5rem;
+    left: 87%;
+    top: 43px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -210,6 +211,9 @@ p {
     }
     .travel_text {
         font-size: 20px;
+    }
+    .travel {
+        height: 85px;
     }
 }
 

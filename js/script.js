@@ -3,6 +3,45 @@
 var map;
 
 $(function() {
+  
+    $(".menu_main").click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 500);
+    });
+
+    $(".menu_me").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".about").offset().top - 51
+        }, 500);
+    });
+
+    $(".menu_dev").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".development").offset().top - 51
+        }, 500);
+    });
+
+    $(".menu_hobbies").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".hobbies").offset().top - 51
+        }, 500);
+    });
+
+    $(".menu_travel").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".travel").offset().top - 51
+        }, 500);
+    });
+
+    $(".menu_contact").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".contact").offset().top
+
+        }, 500);
+    });
+
+
     initMap();
 });
 
