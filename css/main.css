@@ -26,6 +26,9 @@ p {
     width: 1.5rem;
 }
 
+.navbar{
+  box-shadow: 0 1px 6px rgba(0,0,0,0.35);
+}
 
 /* Top */
 
@@ -116,15 +119,23 @@ p {
 }
 
 .web_block {
-    margin-top: 130px;
+    margin-top: 60px;
     left: 20px;
     min-width: 200px;
 }
 
 .web_img {
-    margin-top: 50px;
     width: 20rem;
-    height: 28rem;
+    height: 22rem;
+}
+
+.featurette-hr{
+    margin-top: 100px;
+    border-bottom-color: #eee;
+    overflow: hidden;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #dfe2e5;
 }
 
 @media only screen and (min-width: 770px) {
@@ -153,21 +164,21 @@ p {
     }
     .web_block {
         position: absolute;
-        top: -450px;
+        top: -380px;
     }
     .web_img {
         position: relative;
-        top: 220px;
+        top: 120px;
     }
 }
 
 @media only screen and (max-width: 510px) {
     .web_img {
         position: relative;
-        top: 300px;
+        top: 210px;
     }
     .development {
-        height: 1350px;
+        height: 1300px;
     }
 }
 
@@ -192,7 +203,7 @@ p {
 
 .travel_text {
     position: relative;
-    top: 15px;
+    top: 25px;
     color: #444;
     font-weight: 300;
 }

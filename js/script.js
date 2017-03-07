@@ -3,7 +3,7 @@
 var map;
 
 $(function() {
-  
+
     $(".menu_main").click(function() {
         $('html, body').animate({
             scrollTop: 0
@@ -62,7 +62,7 @@ function initMap() {
         },
         zoom: 4,
         minZoom: 3,
-        maxZoom: 10
+        maxZoom: 14
     });
 
     list.forEach(function(place) {
@@ -71,5 +71,4 @@ function initMap() {
             map: map,
         });
     });
-
 }
