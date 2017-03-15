@@ -71,7 +71,7 @@ function menu_animation() {
 
     $(".menu_contact").click(function() {
         $('html, body').animate({
-            scrollTop: $(".contact").offset().top
+            scrollTop: $(".bottom").offset().top
 
         }, 500);
     });
