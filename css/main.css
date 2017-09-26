@@ -1,259 +1,308 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
 body {
-    -webkit-font-smoothing: antialiased;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
 }
 
-h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: normal;
-}
-
-p {
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: normal;
-    font-weight: 300;
-    color: #757575;
+@font-face {
+  font-family: Gotham;
+  src: url(../fonts/GothaProLig.otf);
 }
 
 
 /* Nav Bar */
 
-.avatar_menu {
-    height: 1.5rem;
-    width: 1.5rem;
+#avatar_menu {
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .navbar {
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
 }
 
 
 /* Top */
 
-.top {
-    position: relative;
-    top: 51px;
-    height: 500px;
+#top {
+  position: relative;
+  top: 51px;
+  height: 500px;
 }
 
 #bg {
-    background: url('images/bg.jpg') center center no-repeat;
-    background-size: cover;
-    color: white;
-    height: 500px;
-    width: 100%;
-    display: flex;
-    align-items: center;
+  background: url('../images/top/bg.jpg') center center no-repeat;
+  background-size: cover;
+  color: white;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 #footer_content {
-    position: relative;
-    top: -400px;
+  position: relative;
+  top: -400px;
 }
 
-.hello {
-    position: relative;
-    color: #ffffff;
+#hello {
+  position: relative;
+  color: #ffffff;
+  top: 50px;
+  font-family: Gotham;
 }
 
-.avatar {
-    position: relative;
-    height: 200px;
-    width: 200px;
-}
-
-@media only screen and (min-width: 992px) {
-    .hello {
-        top: 50px;
-    }
-    .avatar {
-        left: 70px;
-    }
+#avatar {
+  position: relative;
+  background: url('../images/top/avatar.png') center center no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
 }
 
 
 /* ME */
 
-.about {
-    position: relative;
-    width: 100%;
-    height: 525px;
-    margin-top: 51px;
+#about {
+  position: relative;
+  width: 100%;
+  height: 525px;
+  margin-top: 51px;
+}
+
+#profile_picture {
+  background: url('../images/about/me.svg') center center no-repeat;
+  background-size: cover;
+  margin-top: -70px;
+  width: 20rem;
+  height: 24rem;
+}
+
+#profile {
+  position: relative;
+  top: -50px;
+}
+
+#profile_info {
+  color: #3d4451;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #dedede;
+}
+
+#profile_title {
+  font-size: 36px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+#profile_title span {
+  font-weight: 300;
+}
+
+#profile_position {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+#profile_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#profile_list li {
+  margin-bottom: 13px;
+}
+
+#profile_list #title {
+  display: block;
+  float: left;
+  color: #333333;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+#profile_list #cont {
+  display: block;
+  margin-left: 125px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #9da0a7;
 }
 
 
 /* Development */
 
-.development {
-    position: relative;
-    width: 100%;
-    height: 1000px;
-    background-color: #f6f6f6;
+#development {
+  position: relative;
+  display: block;
+  color: #444;
+  width: 100%;
+  height: 1000px;
+  background-color: #f6f6f6;
+  font-size: 1rem;
 }
 
-.soft_block, .software_img {
-    position: relative;
-    display: block;
+#soft_block {
+  position: relative;
+  top: 100px;
 }
 
-.soft_text, .web_text {
-    display: block;
-    color: #444;
-    font-size: 1rem;
+#soft_title, #web_title {
+  font-family: Gotham;
+  font-size: 2.625rem;
+  line-height: 1.4;
 }
 
-.soft_title, .web_title {
-    display: block;
-    color: #444;
-    font-size: 2.625rem;
-    font-weight: 100;
-    line-height: 1.4;
+#software_img {
+  background: url('../images/development/software.png') center center no-repeat;
+  background-size: cover;
+  margin-top: 30px;
+  width: 23rem;
+  height: 26rem;
 }
 
-.software_img {
-    margin-top: 20px;
-    width: 23rem;
-    height: 27rem;
+#web_block {
+  position: relative;
+  margin-top: 80px;
+  left: 65px;
 }
 
-.web_block {
-    margin-top: 60px;
-    left: 20px;
-    min-width: 200px;
-}
-
-.web_img {
-    width: 20rem;
-    height: 22rem;
+#web_img {
+  position: relative;
+  background: url('../images/development/web.png') center center no-repeat;
+  background-size: cover;
+  width: 22rem;
+  height: 24rem;
 }
 
 .featurette-hr {
-    margin-top: 100px;
-    border-bottom-color: #eee;
-    overflow: hidden;
-    background: transparent;
-    border: 0;
-    border-bottom: 1px solid #dfe2e5;
-}
-
-@media only screen and (min-width: 770px) {
-    .soft_block {
-        top: 100px;
-    }
-    .software_img, .web_block {
-        margin-left: 40px;
-    }
-}
-
-@media only screen and (max-width: 770px) {
-    .development {
-        height: 1210px;
-    }
-    .soft_block, .web_block {
-        text-align: center;
-    }
-    .software_img, .web_img {
-        display: block;
-        margin: auto;
-    }
-    .software_img {
-        width: 20rem;
-        height: 25rem;
-    }
-    .web_block {
-        position: absolute;
-        top: -380px;
-    }
-    .web_img {
-        position: relative;
-        top: 120px;
-    }
-}
-
-@media only screen and (max-width: 510px) {
-    .web_img {
-        position: relative;
-        top: 210px;
-    }
-    .development {
-        height: 1300px;
-    }
+  margin-top: 100px;
+  border-bottom-color: #eee;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #dfe2e5;
 }
 
 
 /* Hobbies */
 
-.hobbies {
-    position: relative;
-    width: 100%;
-    height: 525px;
+#hobbies {
+  position: relative;
+  width: 100%;
+  height: 525px;
 }
 
 
 /* Travel section */
 
-.travel {
-    position: relative;
-    width: 100%;
-    height: 100px;
-    background-color: #f6f6f6;
+#travel {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #f6f6f6;
 }
 
 #travel_text {
-    position: relative;
-    top: 25px;
-    color: #444;
-    font-weight: 300;
+  position: relative;
+  top: 25px;
+  color: #444;
+  font-weight: 300;
 }
 
 #marker {
-    position: absolute;
-    width: 4.5rem;
-    height: 4.5rem;
-    left: 87%;
-    top: 43px;
-}
-
-@media only screen and (max-width: 800px) {
-    #marker {
-        display: none;
-    }
-    #travel_text {
-        font-size: 20px;
-    }
-    .travel {
-        height: 85px;
-    }
+  position: absolute;
+  width: 4.5rem;
+  height: 4.5rem;
+  left: 87%;
+  top: 43px;
 }
 
 
 /* Google map with markers*/
 
 #map {
-    position: relative;
-    width: 100%;
-    height: 500px;
+  position: relative;
+  width: 100%;
+  height: 500px;
 }
 
 
 /* Contact */
 
-.bottom {
-    position: relative;
-    width: 100%;
-    height: 525px;
-    background-color: #444;
+#bottom {
+  position: relative;
+  width: 100%;
+  height: 525px;
+  background-color: #444;
 }
 
-.contact {
-    height: 505px;
-    width: 100%;
+@media only screen and (max-width: 767px) {
+  #soft_block {
+    top: 20px;
+    text-align: center;
+  }
+  #software_img {
+    margin-top: 40px;
+    width: 305px;
+    height: 345px;
+  }
+  #web_block {
+    top: -400px;
+    left: 0px;
+    text-align: center;
+  }
+  #web_img {
+    top: 100px;
+  }
+  #development {
+    height: 1150px;
+  }
+  #marker {
+    display: none;
+  }
+  #travel_text {
+    font-size: 25px;
+  }
+  #travel {
+    height: 85px;
+  }
 }
 
-.legal {
-    font-size: 12px;
-    color: rgb(255, 255, 255);
+@media only screen and (max-width: 991px) {
+  #hello {
+    top: 0px;
+    text-align: center;
+  }
+  #profile_picture {
+    margin-top: 50px;
+    width: 8rem;
+    height: 12rem;
+  }
+  #profile_title, #profile_position {
+    text-align: center;
+  }
+  #soft_block {
+    left: 20px;
+  }
+  #profile_info {
+    border-bottom: 0px;
+  }
+  #profile_list {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #profile_info {
+    width: 430px;
+  }
 }

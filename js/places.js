@@ -51,6 +51,14 @@ var Sudak = {lat: 44.850016, lng: 34.975981};
 
 var Alushta = {lat: 44.676181, lng: 34.410008};
 
+var Dnipro = {lat: 48.462214, lng: 35.052536};
+
+var Berdyansk = {lat: 46.775018, lng: 36.795747};
+
+var Askania_Nova = {lat: 46.463103, lng: 33.989996};
+
+var Mygiya = {lat: 48.039122, lng: 30.948051};
+
 // Ausria
 
 var Vien = {lat: 48.208081, lng: 16.372849};
