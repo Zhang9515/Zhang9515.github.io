@@ -270,12 +270,13 @@ body {
   position: relative;
   width: 100%;
   height: 525px;
-  background-color: #818D92;
-color: #ffffff;
+  background-color: #616161;
+  color: #ffffff;
 }
 
 #mess_block{
     margin-top: 50px;
+    margin-left: 20px;
 }
 
 #mess_title{
@@ -286,7 +287,13 @@ input {
     outline:none;
 }
 
-#mess_profile{
+
+input::placeholder{
+
+  color: #ffffff;
+}
+
+#mess_profile_ico{
   position: relative;
   background: url('../images/contact/profile.png') no-repeat center top;
   background-size: cover;
@@ -299,13 +306,10 @@ input {
     left: 35px;
     top: -48px;
     width: 200px;
-    background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+width: calc(100% - 3rem);
 }
 
-
-#mess_mail{
+#mess_mail_ico{
   position: relative;
   background: url('../images/contact/email.png') no-repeat center top;
   background-size: cover;
@@ -313,16 +317,28 @@ background-repeat: no-repeat;
   height: 24px;
 }
 
-#mess_mail_name{
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+#mess_mail{
     position: relative;
     left: 40px;
     top: -48px;
-    width: 200px;
+    width: calc(100% - 3rem);
 }
 
+
+#mess_text_ico{
+    position: relative;
+  background: url('../images/contact/edit.png') no-repeat center top;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+
+#mess_text{
+    position: relative;
+    left: 40px;
+    top: -48px;
+width: calc(100% - 3rem);
+}
 
 @media (max-width: 768px) {
   #top_content {
@@ -414,6 +430,16 @@ background-repeat: no-repeat;
   #travel {
     height: 70px;
   }
+
+  #mess_title{
+    text-align: center;
+  }
+
+
+#sample1, #sample2, #sample3{
+    width: 100%;
+}
+
 }
 
 // Small devices (landscape phones, 576px and up)
