@@ -271,7 +271,58 @@ body {
   width: 100%;
   height: 525px;
   background-color: #818D92;
+color: #ffffff;
 }
+
+#mess_block{
+    margin-top: 50px;
+}
+
+#mess_title{
+    font-size: 28px;
+}
+
+input {
+    outline:none;
+}
+
+#mess_profile{
+  position: relative;
+  background: url('../images/contact/profile.png') no-repeat center top;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+
+#mess_name{
+    position: relative;
+    left: 35px;
+    top: -48px;
+    width: 200px;
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+
+#mess_mail{
+  position: relative;
+  background: url('../images/contact/email.png') no-repeat center top;
+  background-size: cover;
+  width: 28px;
+  height: 24px;
+}
+
+#mess_mail_name{
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 40px;
+    top: -48px;
+    width: 200px;
+}
+
 
 @media (max-width: 768px) {
   #top_content {
@@ -332,12 +383,11 @@ body {
     text-align: center;
   }
 
-
   #web_img {
     top: 130px;
   }
 
- #development {
+  #development {
     height: 1180px;
   }
 
