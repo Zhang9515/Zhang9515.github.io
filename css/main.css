@@ -19,6 +19,7 @@ body {
 }
 
 .navbar {
+    background-color: #FCFCFC;
   padding: 0px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
 }
@@ -227,6 +228,9 @@ body {
     width: 190px;
 }
 
+#photo_block a:hover{
+    text-decoration: none;
+}
 
 #hob_title{
     font-size: 22px;
@@ -236,14 +240,15 @@ body {
 #travel {
   position: relative;
   width: 100%;
-  height: 100px;
+  height: 70px;
   background-color: #f6f6f6;
 }
 
 #travel_text {
   position: relative;
-  top: 25px;
+  top: 15px;
   color: #444;
+  font-size: 24px;
   font-weight: 300;
 }
 
@@ -252,7 +257,7 @@ body {
   width: 4.5rem;
   height: 4.5rem;
   left: 87%;
-  top: 43px;
+  top: 20px;
 }
 
 #map {
@@ -265,7 +270,7 @@ body {
   position: relative;
   width: 100%;
   height: 525px;
-  background-color: #444;
+  background-color: #818D92;
 }
 
 @media (max-width: 768px) {
@@ -309,7 +314,7 @@ body {
   #software_img {
     margin-top: 40px;
     width: 290px;
-    height: 335px;
+    height: 345px;
   }
 
   #soft_block {
@@ -356,7 +361,7 @@ body {
   }
 
   #travel {
-    height: 85px;
+    height: 70px;
   }
 }
 
