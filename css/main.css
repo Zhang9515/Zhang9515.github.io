@@ -19,7 +19,7 @@ body {
 }
 
 .navbar {
-    background-color: #FCFCFC;
+  background-color: #FCFCFC;
   padding: 0px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
 }
@@ -332,11 +332,12 @@ body {
     text-align: center;
   }
 
+
   #web_img {
     top: 130px;
   }
 
-  #development {
+ #development {
     height: 1180px;
   }
 
