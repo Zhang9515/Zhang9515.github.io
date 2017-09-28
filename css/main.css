@@ -197,6 +197,32 @@ body {
   height: 525px;
 }
 
+#hobbie_content{
+    position: relative;
+    top: 200px;
+}
+
+#photo{
+  background: url('../images/hobbies/photo-camera.svg') no-repeat center top #FFF;
+  background-size: cover;
+  height: 128px;
+  width: 128px;
+}
+
+#skate{
+  background: url('../images/hobbies/skateboard.svg') no-repeat center top #FFF;
+  background-size: cover;
+  height: 128px;
+  width: 128px;
+}
+
+#guitar{
+  background: url('../images/hobbies/guitar.svg') no-repeat center top #FFF;
+  background-size: cover;
+  height: 128px;
+  width: 128px;
+}
+
 #travel {
   position: relative;
   width: 100%;
@@ -297,6 +323,10 @@ body {
 
   #development {
     height: 1180px;
+  }
+
+  #hobbie_content{
+    top: 40px;
   }
 
   #marker {
