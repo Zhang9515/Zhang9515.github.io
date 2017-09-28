@@ -19,6 +19,7 @@ body {
 }
 
 .navbar {
+  background-color: #FCFCFC;
   padding: 0px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
 }
@@ -154,7 +155,7 @@ body {
   top: 100px;
 }
 
-#soft_title, #web_title {
+#dev_title {
   font-family: Gotham;
   font-size: 2.625rem;
   line-height: 1.4;
@@ -197,17 +198,57 @@ body {
   height: 525px;
 }
 
+#hobbie_content{
+    position: relative;
+    top: 170px;
+}
+
+#photo{
+  background: url('../images/hobbies/photo-camera.svg') no-repeat center top #FFF;
+  background-size: cover;
+  height: 128px;
+  width: 128px;
+}
+
+#skate{
+  background: url('../images/hobbies/skateboard.png') no-repeat center top #FFF;
+  background-size: cover;
+  height: 128px;
+  width: 128px;
+}
+
+#guitar{
+  background: url('../images/hobbies/guitar.svg') no-repeat center top #FFF;
+  background-size: cover;
+  height: 128px;
+  width: 128px;
+}
+
+#photo_block, #skate_block, #guitar_block{
+    width: 190px;
+}
+
+#photo_block a:hover{
+    text-decoration: none;
+}
+
+#hob_title{
+    font-size: 22px;
+    margin: 15px;
+}
+
 #travel {
   position: relative;
   width: 100%;
-  height: 100px;
+  height: 70px;
   background-color: #f6f6f6;
 }
 
 #travel_text {
   position: relative;
-  top: 25px;
+  top: 15px;
   color: #444;
+  font-size: 24px;
   font-weight: 300;
 }
 
@@ -216,7 +257,7 @@ body {
   width: 4.5rem;
   height: 4.5rem;
   left: 87%;
-  top: 43px;
+  top: 20px;
 }
 
 #map {
@@ -229,7 +270,7 @@ body {
   position: relative;
   width: 100%;
   height: 525px;
-  background-color: #444;
+  background-color: #818D92;
 }
 
 @media (max-width: 768px) {
@@ -273,7 +314,7 @@ body {
   #software_img {
     margin-top: 40px;
     width: 290px;
-    height: 335px;
+    height: 345px;
   }
 
   #soft_block {
@@ -291,12 +332,25 @@ body {
     text-align: center;
   }
 
+
   #web_img {
     top: 130px;
   }
 
-  #development {
+ #development {
     height: 1180px;
+  }
+
+  #hobbies{
+    height: 1020px;
+  }
+
+  #hobbie_content{
+    top: 40px;
+  }
+
+  #photo, #skate, #guitar{
+    margin-top: 40px;
   }
 
   #marker {
@@ -308,7 +362,7 @@ body {
   }
 
   #travel {
-    height: 85px;
+    height: 70px;
   }
 }
 
