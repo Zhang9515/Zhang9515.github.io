@@ -154,7 +154,7 @@ body {
   top: 100px;
 }
 
-#soft_title, #web_title {
+#dev_title {
   font-family: Gotham;
   font-size: 2.625rem;
   line-height: 1.4;
@@ -199,7 +199,7 @@ body {
 
 #hobbie_content{
     position: relative;
-    top: 200px;
+    top: 170px;
 }
 
 #photo{
@@ -210,7 +210,7 @@ body {
 }
 
 #skate{
-  background: url('../images/hobbies/skateboard.svg') no-repeat center top #FFF;
+  background: url('../images/hobbies/skateboard.png') no-repeat center top #FFF;
   background-size: cover;
   height: 128px;
   width: 128px;
@@ -221,6 +221,16 @@ body {
   background-size: cover;
   height: 128px;
   width: 128px;
+}
+
+#photo_block, #skate_block, #guitar_block{
+    width: 190px;
+}
+
+
+#hob_title{
+    font-size: 22px;
+    margin: 15px;
 }
 
 #travel {
@@ -325,8 +335,16 @@ body {
     height: 1180px;
   }
 
+  #hobbies{
+    height: 1020px;
+  }
+
   #hobbie_content{
     top: 40px;
+  }
+
+  #photo, #skate, #guitar{
+    margin-top: 40px;
   }
 
   #marker {
