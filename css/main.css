@@ -10,9 +10,6 @@ body {
     src: url(../fonts/GothaProLig.otf);
 }
 
-
-/* Nav Bar */
-
 #avatar_menu {
     height: 1.5rem;
     width: 1.5rem;
@@ -144,59 +141,38 @@ body {
     #hobbies {
         height: 1020px;
     }
+    
     #hobbie_content {
         top: 40px;
     }
+    
     #photo,
     #skate,
     #guitar {
         margin-top: 40px;
     }
+    
     #marker {
         display: none;
     }
+    
     #travel_text {
         font-size: 25px;
     }
+    
     #travel {
         height: 70px;
     }
 }
 
-
 #footer-nav {
     text-align: center;
 }
-
 
 #footer-nav ul {
     display: inline-block;
     margin: 0;
     padding: 0;
-}
-
-.social-icons {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-dl,
-ul,
-ol {
-    margin-left: 30px;
-    margin-bottom: 30px;
-}
-
-ol,
-ul,
-li {
-    list-style: none;
-}
-
-ul,
-ol,
-dl {
-    list-style-type: none;
 }
 
 #footer-nav>ul>li {
@@ -206,24 +182,11 @@ dl {
 
 .social-icons li {
     display: block;
-    float: left;
     padding: 0 10px;
 }
 
-ul>li {
-    list-style: none;
-    list-style-position: outside;
-    padding-left: 25px;
-}
-
-ol,
-ul,
-li {
-    list-style: none;
-}
-
 #footer-nav .social-icons>li a {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .social-icons a {
@@ -235,21 +198,8 @@ li {
     color: #ffffff;
 }
 
-.social-icons a {
-    display: block;
-    text-align: center;
-}
-
-.footer-center #footer-text {
-    padding: 0 0 10px;
-}
-
 #footer-text {
     color: #777;
-}
-
-@media (min-width: 768px) .col-sm-12 {
-    width: 100%;
 }
 
 #copyright_text {
